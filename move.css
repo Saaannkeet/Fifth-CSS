@@ -1,0 +1,585 @@
+h1{
+    text-align: center;
+}
+
+
+
+
+
+.row1{
+    padding: 10px;
+    margin-left: 570px;
+    margin-top: 30px;
+   
+}
+
+
+.one{
+width: 100px;
+height: 100px;
+background-color: rgb(109, 51, 243);;
+animation-name: sanket1;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+margin-left: -120px;
+
+}
+
+.two{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(109, 51, 243);;
+    margin-top: -100px;
+   margin-left:200px ;
+   animation-name: sanket1;
+ animation-duration: 5s ;
+ animation-iteration-count: infinite;
+ animation-direction: alternate;
+    
+}
+
+.three{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(109, 51, 243);;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    margin-top: -100px;
+    animation-name: sanket1;
+ animation-duration: 5s ;
+ animation-iteration-count: infinite;
+ animation-direction: alternate;
+}
+.a{
+    margin-left: 430px;
+   margin-top: -40px;
+}
+.c{  margin-left: 430px;
+    margin-top: 80px;
+    position: fixed;
+ }
+    
+
+
+@keyframes sanket1{
+    from{
+          transform:skewX(20deg)
+    }
+    to{
+        transform:skewX(-20deg)
+    }
+}
+
+
+
+
+.row2{
+    padding: 10px;
+    margin-left: 570px;
+    margin-top: 30px;
+   
+}
+
+
+.four{
+width: 100px;
+height: 100px;
+background-color: gray;
+animation-name: sanket2;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+
+margin-left: -120px;
+
+
+
+}
+
+.five{
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    margin-top: -100px;
+   margin-left:200px ;
+   animation-name: sanket2;
+ animation-duration: 2s ;
+ animation-iteration-count: infinite;
+ animation-direction: alternate;
+ 
+
+    
+}
+
+.six{
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    margin-top: -100px;
+    animation-name: sanket2;
+ animation-duration: 2s ;
+ animation-iteration-count: infinite;
+ animation-direction: alternate;
+
+
+
+
+}
+
+@keyframes sanket2 {
+    from{
+          transform:skewX(20deg)
+    }
+    to{
+        transform:skewX(-20deg)
+    }
+}
+
+
+
+
+
+
+
+
+.row3{
+    padding: 10px;
+    margin-left: 570px;
+    margin-top: 30px;
+   
+}
+
+
+.seven{
+width: 100px;
+height: 100px;
+background-color: rgb(109, 51, 243);;
+
+margin-left: -120px;
+animation-name: sanket3;
+ animation-duration: 3s ;
+ animation-iteration-count: infinite;
+ 
+}
+
+
+
+.eight{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(109, 51, 243);;
+    margin-top: -100px;
+   margin-left:200px ;
+   animation-name: sanket3;
+ animation-duration: 3s ;
+ animation-iteration-count: infinite;
+ 
+    
+}
+
+.nine{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(109, 51, 243);;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    margin-top: -100px;
+    animation-name: sanket3;
+ animation-duration: 3s ;
+ animation-iteration-count: infinite;
+ 
+}
+
+
+@keyframes sanket3{
+    from{
+          transform:rotate(0deg)
+    }
+    to{
+        transform:rotate(360deg)
+    }
+}
+
+
+
+
+.row4{
+    padding: 10px;
+    margin-left: 570px;
+    margin-top: 30px;
+   
+}
+
+
+.ten{
+width: 100px;
+height: 100px;
+background-color: rgb(109, 51, 243);
+border:solid black 2px;
+animation-name: sanket4;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+
+position:fixed;
+
+margin-left: -120px;
+
+}
+
+
+.eleven{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border:solid black 2px;
+position:fixed;
+    margin-top: 0px;
+   margin-left:200px ;
+   animation-name: sanket5;
+   animation-duration: 3s ;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+
+}@keyframes sanket5{
+    from{
+          transform:rotate(20deg)
+    }
+    to{
+        transform:rotate(-60deg)
+    }
+
+}
+.twelve{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    border:solid black 2px;
+    position:fixed;
+
+    margin-bottom: 10px;
+    margin-left: 40px;
+    margin-top: 0px;
+    animation-name: sanket6;
+   animation-duration: 2s ;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+
+}
+.link1{
+    font-size: 20px;
+    margin-left: 550px;
+    margin-top: 70px;
+position: fixed;
+}
+
+
+@keyframes sanket6{
+from{
+    width:100px;
+}
+to{
+
+    width:30px;
+}
+}
+
+@keyframes sanket4{
+    from{
+        height:100px;
+    }
+    to{
+    
+       height:30px;
+    }
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.one1{  width: 100px;
+    height: 100px;
+    background-color: green;    
+    margin-bottom:10px;
+    margin-left: 630px;
+    
+transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+}
+
+
+
+.one1:hover{
+ 
+    width:300px;
+}    
+
+
+.two2{  width: 100px;
+    height: 100px;
+    background-color: green; 
+    margin-bottom: 10px;
+    margin-left: 630px;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+}
+
+
+
+
+
+.two2:hover{
+width:300px;
+height: 300px;
+}
+
+
+.three3{  width: 100px;
+    height: 100px;
+    background-color: green;   
+    margin-bottom: 10px;
+    margin-left: 630px;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+}
+ 
+.three3:hover{
+    
+    width:300px;
+}
+
+.four4{  width: 100px;
+    height: 100px;
+    background-color: green;    
+    margin-bottom: 10px;
+    margin-left: 630px;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+.four4:hover{
+    width: 300px;
+}
+
+
+
+
+.five5{  width: 100px;
+    height: 100px;
+    background-color: green;   
+    margin-bottom: 10px;
+    margin-left: 630px;
+    transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: linear; 
+}
+
+.five5:hover{
+    width: 300px;
+}
+
+
+
+
+.six6{  width: 100px;
+    height: 100px;
+    background-color: green;  
+    margin-bottom: 10px;
+    margin-left: 630px;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+}
+
+.six6:hover{
+    width: 300px;
+}
+
+
+.seven7{  width: 100px;
+    height: 100px;
+    background-color: green;  
+    margin-bottom: 10px;
+    margin-left:200px ;
+    margin-left: 630px;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+
+}
+.seven7:hover{
+    width: 300px;
+}
+
+.link{
+    margin-left: 650px;
+}
+  
+.b{
+   margin-left: 600px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main{
+    height:100vh;
+    width:100%;
+background-image: url(bluesky.jpeg);
+background-size: cover;
+background-position: center;
+position: relative;
+overflow-x: hidden;
+}
+
+.road{
+    height: 250px;
+width: 500%;
+display: block;
+background-image: url(road.jpeg);
+position: absolute;
+bottom: 0;
+left: 0;
+right: 0;
+z-index: 1;
+background-repeat: repeat-x;
+
+animation: road 8s linear infinite;
+}
+
+@keyframes road{
+    100%{
+        transform: translateX(-3400px);
+    }
+}
+
+
+.building{
+    height: 250px;
+    width: 500%;
+background-image: url(building.jpeg);
+position: absolute;
+bottom:250px;
+left:0;
+right:0;
+display: block;
+z-index: 1;
+background-repeat: repeat-x;
+animation:city 20s linear infinite;
+
+}
+@keyframes city{
+    100%{
+        transform: translateX(-3400px);
+    }
+}
+
+.car{
+    
+    left: 50%;
+bottom:100px;
+transform: translateX(50%);
+z-index: 1;
+position: absolute;
+margin-left: -300px;
+margin-top: -20px;
+}
+
+.wheel1{
+    position: absolute;
+margin-left: 595px;
+margin-top: 460px;
+z-index: 1;
+animation: wheel  1s linear infinite;
+}
+.wheel2{
+    position: absolute;
+margin-left: 840px;
+margin-top: 460px;
+z-index: 1;
+animation: wheel  1s linear infinite;
+}
+@keyframes wheel{
+  from  {
+      transform:rotate(0deg)
+    }
+    to{
+      transform: rotate(360deg);
+    }
+}
+
+.sun{
+    position: absolute;
+   margin-left: 1040px;
+    margin-top: 90px;
+    z-index: 1;
+    
+}
+.flag{
+    position: absolute;
+    margin-left: 840px;
+    margin-top: 330px;
+    z-index: 1;
+    
+}
+
+.first{
+    text-align: center;
+    font-size: 40px;
+}
+.happy{
+    background-color: orangered;
+}
+.ind{
+    background-color: white;
+}
+.day{
+    background-color: green;
+}
+
+
+
+
+
